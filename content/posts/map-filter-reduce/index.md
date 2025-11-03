@@ -11,5 +11,5 @@ title = 'Map, Filter & Reduce'
 ## Map
 The `map(f, iterable)` function takes a function, `f` and applies it to every element of the `iterable` (array, list, tuple, set).
 ```go
-func myMap(f func, iterable interface{})
+func myMap(f func, iterable interface{}){}
 ```
