@@ -1,5 +1,10 @@
 name: GitHub Pages
 
+permissions:
+  # contents: write
+  # or for GitHub Pages:
+  pages: write
+
 on:
   push:
     branches:
