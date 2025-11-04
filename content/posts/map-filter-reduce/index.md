@@ -2,6 +2,7 @@
 date = '2025-11-03T22:19:06+03:00'
 draft = false
 title = 'Map, Filter & Reduce'
+description = 'Understanding the holy trinity of functional programming.'
 tags = ['functional programming', 'golang', 'holy trinity']
 +++
 **Map, filter and reduce** are the holy trinity of **functional programming**. These functions are available in all languages that encourage functional programming at the language level i.e Haskell as well as the multi-purpose languages such as Python and Javascript.
