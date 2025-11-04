@@ -13,3 +13,4 @@ The `map(f, iterable)` function takes a function, `f` and applies it to every el
 ```go
 func myMap(f func, iterable interface{}){}
 ```
+
