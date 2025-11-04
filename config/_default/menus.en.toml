@@ -18,7 +18,7 @@
 [[main]]
   name = "About"
   pageRef = "about"
-  weight = 30
+  weight = 50
 
 #[[main]]
 #  name = "Parent"
@@ -52,10 +52,10 @@
 #  pageRef = "categories"
 #  weight = 20
 
-#[[main]]
-#  name = "Tags"
-#  pageRef = "tags"
-#  weight = 30
+[[main]]
+ name = "Tags"
+ pageRef = "tags"
+ weight = 30
 
 
 # -- Footer Menu --
