@@ -21,8 +21,10 @@
 
   
   
-    <meta name="description" content="Santiago Deng&#39;s blog">
+    <meta name="description" content="Understanding the holy trinity of functional programming.">
   
+  
+    <meta name="keywords" content="functional programming,golang,holy trinity,">
   
   
   
@@ -47,17 +49,22 @@
   <meta property="og:url" content="http://localhost:1313/posts/map-filter-reduce/">
   <meta property="og:site_name" content="Santiago Deng&#39;s Blog">
   <meta property="og:title" content="Map, Filter & Reduce">
-  <meta property="og:description" content="Santiago Deng&#39;s blog">
+  <meta property="og:description" content="Understanding the holy trinity of functional programming.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2025-11-03T22:19:06+03:00">
     <meta property="article:modified_time" content="2025-11-03T22:19:06+03:00">
+    <meta property="article:tag" content="Functional Programming">
+    <meta property="article:tag" content="Golang">
+    <meta property="article:tag" content="Holy Trinity">
+    <meta property="og:image" content="http://localhost:1313/posts/map-filter-reduce/feature.png">
 
   
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/posts/map-filter-reduce/feature.png">
   <meta name="twitter:title" content="Map, Filter & Reduce">
-  <meta name="twitter:description" content="Santiago Deng&#39;s blog">
+  <meta name="twitter:description" content="Understanding the holy trinity of functional programming.">
 
   
   
@@ -208,7 +215,7 @@
     "articleSection": "Posts",
     "name": "Map, Filter \u0026 Reduce",
     "headline": "Map, Filter \u0026 Reduce",
-    
+    "description": "Understanding the holy trinity of functional programming.",
     
     "inLanguage": "en",
     "url" : "http:\/\/localhost:1313\/posts\/map-filter-reduce\/",
@@ -222,10 +229,10 @@
     
     "dateModified": "2025-11-03T22:19:06\u002b03:00",
     
-    
+    "keywords": ["functional programming","golang","holy trinity"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "53"
+    "wordCount": "387"
   }]
   </script>
 
@@ -327,12 +334,30 @@
   href="/posts/"
   
   class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
-  aria-label="Blog"
+  aria-label="Posts"
   title="Posts">
   
   
     <p class="text-base font-medium">
-      Blog
+      Posts
+    </p>
+  
+</a>
+
+
+
+      
+        
+  <a
+  href="/tags/"
+  
+  class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+  aria-label="Tags"
+  title="Tags">
+  
+  
+    <p class="text-base font-medium">
+      Tags
     </p>
   
 </a>
@@ -461,12 +486,32 @@
     href="/posts/"
     
     class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
-    aria-label="Blog"
+    aria-label="Posts"
     title="Posts">
     
     
       <p class="text-bg font-bg">
-        Blog
+        Posts
+      </p>
+    
+  </a>
+</li>
+
+
+
+            
+              
+  <li class="mt-1">
+  <a
+    href="/tags/"
+    
+    class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+    aria-label="Tags"
+    title="Tags">
+    
+    
+      <p class="text-bg font-bg">
+        Tags
       </p>
     
   </a>
@@ -526,6 +571,83 @@
   
   <article>
     
+    
+      
+      
+      
+      
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+
+
+
+
+
+  
+    
+    
+      
+      
+    
+  
+
+
+
+
+
+    <div id="hero" class="h-[150px] md:h-[200px]"></div>
+  
+  <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom">
+    
+    
+    
+    <img
+      id="background-image"
+      src="/posts/map-filter-reduce/feature_hu_677b33bb9fecc4bb.png"
+      alt="Map, Filter &amp; Reduce"
+      loading="eager"
+      decoding="async"
+      fetchpriority="high"
+      class="absolute inset-0 w-full h-full object-cover"
+      >
+    <div
+      class="absolute inset-0 bg-gradient-to-t from-neutral dark:from-neutral-800 to-transparent mix-blend-normal"></div>
+    <div
+      class="absolute inset-0 opacity-60 bg-gradient-to-t from-neutral dark:from-neutral-800 to-neutral-100 dark:to-neutral-800 mix-blend-normal"></div>
+  </div>
+
+  
+    <div
+      id="background-blur"
+      class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl"></div>
+    
+    
+    <script
+      type="text/javascript"
+      src="/js/background-blur.min.00a57c73ea12f2cab2980c3c3d649e89f6d82f190f74bbe2b67f2f5e39ab7d032ece47086400ca05396758aace13299da49aca43ea643d2625e62c506267a169.js"
+      integrity="sha512-AKV8c&#43;oS8sqymAw8PWSeifbYLxkPdLvitn8vXjmrfQMuzkcIZADKBTlnWKrOEymdpJrKQ&#43;pkPSYl5ixQYmehaQ=="
+      data-blur-id="background-blur"
+      data-image-id="background-image"
+      data-image-url="/posts/map-filter-reduce/feature_hu_677b33bb9fecc4bb.png"></script>
+  
+      
     
 
     
@@ -591,7 +713,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2025-11-03T22:19:06&#43;03:00">3 November 2025</time><span class="px-2 text-primary-500">&middot;</span><span>53 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span><span class="px-2 text-primary-500">&middot;</span><span>
+      <time datetime="2025-11-03T22:19:06&#43;03:00">3 November 2025</time><span class="px-2 text-primary-500">&middot;</span><span>387 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span><span class="px-2 text-primary-500">&middot;</span><span>
   
   
     
@@ -683,17 +805,9 @@
         
 
         <div class="article-content max-w-prose mb-20">
-          
-<h1 class="relative group">Map, Filter &amp; Reduce
-    <div id="map-filter--reduce" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#map-filter--reduce" aria-label="Anchor">#</a>
-    </span>
-    
-</h1>
-<p><strong>Map, filter and reduce</strong> are the 3 functions that power <strong>functional programming</strong>. In this article, we&rsquo;ll learn how they work and implement them in Golang.</p>
+          <p><strong>Map, filter and reduce</strong> are the holy trinity of <strong>functional programming</strong>. These functions are available in all languages that encourage functional programming at the language level i.e Haskell as well as the multi-purpose languages such as Python and Javascript.
+In this article, we&rsquo;ll learn how they work and implement them in Golang.
+Golang is not a functional programming language, but it gives us the tools to perform functional programming with the <strong>generics</strong>.</p>
 <hr>
 
 <h2 class="relative group">Map
@@ -705,8 +819,60 @@
     </span>
     
 </h2>
-<p>The <code>map(f, iterable)</code> function takes a function, <code>f</code> and applies it to every element of the <code>iterable</code> (array, list, tuple, set).</p>
-
+<p>The map function is the first in the holy trinity of functional programming. The function <code>Map(iterable, f)</code> takes a function <code>f</code>, known as a <strong>transform function</strong>, and applies it to every element of the <code>iterable</code> (array, list, tuple, set).
+In our case, we&rsquo;ll apply it to a slice of type T (generic type).</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="c1">// Simple map function that transforms a slice</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">func</span><span class="w"> </span><span class="nx">Map</span><span class="p">[</span><span class="nx">T</span><span class="w"> </span><span class="kt">any</span><span class="p">](</span><span class="nx">slice</span><span class="w"> </span><span class="p">[]</span><span class="nx">T</span><span class="p">,</span><span class="w"> </span><span class="nx">transform</span><span class="w"> </span><span class="kd">func</span><span class="p">(</span><span class="nx">T</span><span class="p">)</span><span class="w"> </span><span class="nx">T</span><span class="p">)</span><span class="w"> </span><span class="p">[]</span><span class="nx">T</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="nx">result</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nb">make</span><span class="p">([]</span><span class="nx">T</span><span class="p">,</span><span class="w"> </span><span class="nb">len</span><span class="p">(</span><span class="nx">slice</span><span class="p">))</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="k">for</span><span class="w"> </span><span class="nx">_</span><span class="p">,</span><span class="w"> </span><span class="nx">elem</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="k">range</span><span class="w"> </span><span class="nx">slice</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="c1">// index is ignored</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="nx">result</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nb">append</span><span class="p">(</span><span class="nx">result</span><span class="p">,</span><span class="w"> </span><span class="nf">transform</span><span class="p">(</span><span class="nx">elem</span><span class="p">))</span><span class="w"> </span><span class="c1">// transform every element and append it to result</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="k">return</span><span class="w"> </span><span class="nx">result</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span></code></pre></div>
+<h2 class="relative group">Filter
+    <div id="filter" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#filter" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>The filter function is the second in the holy trinity of functional programming. The function <code>Filter(iterable, f)</code> takes an iterable and returns all the elements that make the function <code>f</code> return <code>true</code>.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">func</span><span class="w"> </span><span class="nx">Filter</span><span class="p">[</span><span class="nx">T</span><span class="w"> </span><span class="kt">any</span><span class="p">](</span><span class="nx">slice</span><span class="w"> </span><span class="p">[]</span><span class="nx">T</span><span class="p">,</span><span class="w"> </span><span class="nx">f</span><span class="w"> </span><span class="kd">func</span><span class="p">(</span><span class="nx">T</span><span class="p">)</span><span class="w"> </span><span class="kt">bool</span><span class="p">)</span><span class="w"> </span><span class="p">[]</span><span class="nx">T</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="kd">var</span><span class="w"> </span><span class="nx">result</span><span class="w"> </span><span class="p">[]</span><span class="nx">T</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="k">for</span><span class="w"> </span><span class="nx">_</span><span class="p">,</span><span class="w"> </span><span class="nx">elem</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="k">range</span><span class="w"> </span><span class="nx">slice</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="c1">// ignore index</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="k">if</span><span class="w"> </span><span class="nf">f</span><span class="p">(</span><span class="nx">elem</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="c1">// if f returns true, then</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">			</span><span class="nx">result</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nb">append</span><span class="p">(</span><span class="nx">result</span><span class="p">,</span><span class="w"> </span><span class="nx">elem</span><span class="p">)</span><span class="w"> </span><span class="c1">// append the elem to the result</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="k">return</span><span class="w"> </span><span class="nx">result</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span></code></pre></div>
+<h2 class="relative group">Reduce
+    <div id="reduce" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#reduce" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>The reduce function is the third function in the holy trinity of functional programming. This function <code>Reduce(iterable, reducer)</code> takes an iterable and applies a function <code>reducer()</code> to reduce the iterable to a single value <code>accumulator</code> that represents the iterable. The reduce function takes advantage of a <strong>closure</strong> to keep track of the current value of the <code>accumulator</code> as it iterates through the iterable.
+The reducer function has this signature: <code>reducer(accumulator, elem)</code> where <code>elem</code> is the current element in the iterable that is to be reduced into the accumulator.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">func</span><span class="w"> </span><span class="nx">Reduce</span><span class="p">[</span><span class="nx">T</span><span class="w"> </span><span class="kt">any</span><span class="p">](</span><span class="nx">slice</span><span class="w"> </span><span class="p">[]</span><span class="nx">T</span><span class="p">,</span><span class="w"> </span><span class="nx">reducer</span><span class="w"> </span><span class="kd">func</span><span class="p">(</span><span class="nx">T</span><span class="p">,</span><span class="w"> </span><span class="nx">T</span><span class="p">)</span><span class="w"> </span><span class="nx">T</span><span class="p">)</span><span class="w"> </span><span class="nx">T</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="kd">var</span><span class="w"> </span><span class="nx">accumulator</span><span class="w"> </span><span class="nx">T</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="k">for</span><span class="w"> </span><span class="nx">i</span><span class="p">,</span><span class="w"> </span><span class="nx">elem</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="k">range</span><span class="w"> </span><span class="nx">slice</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="k">if</span><span class="w"> </span><span class="nx">i</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">			</span><span class="nx">accumulator</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nx">elem</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">			</span><span class="nx">accumulator</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nf">reducer</span><span class="p">(</span><span class="nx">accumulator</span><span class="p">,</span><span class="w"> </span><span class="nx">elem</span><span class="p">)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="k">return</span><span class="w"> </span><span class="nx">accumulator</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span></code></pre></div>
           
           
           

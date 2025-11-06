@@ -18,7 +18,7 @@
       <author>sandeng1440@gmail.com (Santiago Deng)</author>
       <guid>http://localhost:1313/posts/map-filter-reduce/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/map-filter-reduce/feature.png" />
     </item>
     
     <item>
